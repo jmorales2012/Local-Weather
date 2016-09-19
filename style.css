@@ -28,11 +28,12 @@ body {
     font-size: 18px;
 }
 
-.weather-text {
+.weather {
     font-size: 16px;
+    margin-bottom: -10px;
 }
 
-.temperature {
+.temp-text {
     font-size: 120px;
     font-weight: 200;
     padding-left: 20px; /* Looks off-center w/o this due to degree symbol */
@@ -64,7 +65,7 @@ body {
     color: gray;
 }
 
-.temperature-unit a {
+.temp-unit a {
     text-decoration: none;
     font-size: 14px;
 }
