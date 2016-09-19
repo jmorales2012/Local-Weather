@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    color: white;
+}
+
+h1, h2, p {
+    font-weight: 200;
+}
+
+body {
+    background-color: #42c5f8;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.location {
+    margin: 70px 0 5px 0;
+    font-size: 18px;
+}
+
+.weather-text {
+    font-size: 16px;
+}
+
+.temperature {
+    font-size: 120px;
+    font-weight: 200;
+    padding-left: 20px; /* Looks off-center w/o this due to degree symbol */
+}
+
+.degree-symbol {
+    position: relative;
+    bottom: 50px;
+    font-size: 44px;
+}
+
+.search-box {
+    margin: 20px 0 10px 0;
+}
+
+.search-bar {
+    position: relative;
+    margin-left: 25px;
+    height: 28px;
+    width: 175px;
+    font-size: 12px;
+    color: gray;
+}
+
+.search-icon {
+    position: relative;
+    right: 25px;
+    top: 2px;
+    color: gray;
+}
+
+.temperature-unit a {
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer {
+    margin-top: 250px;
+    line-height: 20px;
+    font-size: 14px;
+    text-align: center;
+}
