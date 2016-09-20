@@ -18,25 +18,27 @@
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
 
+        <!-- jQery Script -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     </head>
     <body>
         <div class="container">
-            <div class="location"><h1 class="location-text">Cheyenne, WY</h1></div>
-            <div class="weather"><p class="weather-text">Sunny</p></div>
-            <div class="temp"><p class="temp-text">80<span class="degree-symbol">&#176</span></p></div>
+            <div class="location"><h1 class="location-text">--</h1></div>
+            <div class="weather"><p class="weather-text"></p></div>
+            <div class="temp"><p class="temp-text">--<span class="degree-symbol">&#176</span></p></div>
             <div class="weather-icon">
                 <i class="fa fa-sun-o fa-3x" aria-hidden="true"></i>
             </div>
             <div class="search-box">
-                <form>
+                <form onsubmit="getSearchBar(); return false;">
                     <input type="text" name="search" class="search-bar" placeholder="Enter City">
-                    <a href="" onclick=""><i class="search-icon fa fa-search" aria-hidden="true"></i></a>
+                    <a href="" onclick="getSearchBar(); return false;" class="search-icon"><i class="fa fa-search" aria-hidden="true"></i></a>
                 </form>
             </div>
             <div class="temp-unit">
                 <p>
-                    <a href="" onclick="" class="fahrenheit">F</a> |
-                    <a href="" onclick="" class="celsius">C</a>
+                    <a href="" onclick="toFahr(); return false;" class="fahrenheit">F</a> |
+                    <a href="" onclick="toCels(); return false;" class="celsius">C</a>
                 </p>
             </div>
             <!-- Insert footer when ready
@@ -47,5 +49,7 @@
             </div>
             -->
         </div>
+
+        <script src="script.js"></script>
     </body>
 </html>

@@ -62,6 +62,9 @@ body {
     position: relative;
     right: 25px;
     top: 2px;
+}
+
+.search-icon .fa {
     color: gray;
 }
 
