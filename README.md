@@ -33,13 +33,11 @@ Steps to Build
 Function Needed
 
 1. Function to get user's current location
-2. Function to make API call to get info (default temp is fahr)
-3. Function to change city + state text in ".location-text"
-4. Function to change weather description in ".weather-text"
+2. Function to make API call to get JSON (default temp is fahr) using current location or search bar location
+3. Function to change city text in ".location-text"
+4. Function to change weather description & icon in ".weather-text"
 5. Function to change degree text in ".degree-text"
-    Make sure degree symbol is added back with appropriate class
-6. Function to change icon in ".weather-icon" depending on weather text
-7. Function to convert fahr to cels
-8. Function to convert cels to fahr
-9. Function to get sunrise and convert to local time
-10. Function to get sunset and convert to local time
+6. Function to convert fahr to cels
+7. Function to convert cels to fahr
+8. Function to get sunrise/sunset and convert to local time
+9. Make sure if search bar is empty nothing happens**********

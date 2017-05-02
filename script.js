@@ -24,7 +24,7 @@ function getSearchBar() {
     var weatherURL = "http://api.openweathermap.org/data/2.5/weather?q=" +
         city + "&appid=6284350acdacc239d1ab6812ae6609c2";
 
-    document.getElementsByClassName("search-bar")[0].value = "";
+    city.value = "";
 
     getWeather(weatherURL);
 }
